@@ -29,7 +29,7 @@ arsort($words_count);
 
 foreach ($words_count as $word => $word_count) {
     $entry_count = count($word_count[0]);
-    echo "{$word}: {$entry_count}" . PHP_EOL;
+    echo "{$word}: {$entry_count} <br>" . PHP_EOL;
 }
 
 echo "Всего слов: {$count}";
